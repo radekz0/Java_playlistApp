@@ -18,7 +18,7 @@ public class PlayPlaylist {
         play(playlist);
     }
 
-    //The play method accepts LinkedList of songs and creates app menu
+    //The play method accepts LinkedList of songs and creates app menu.
     private void play(LinkedList<Song> playlist){
         scanner = new Scanner(System.in);
         listiterator = playlist.listIterator();
