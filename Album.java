@@ -15,7 +15,7 @@ public class Album {
     }
 
     public void addSong(String title, double duration){
-        Song foundSong = findSong(title);      //findSong method is used to determine if you don't add a duplicate to your album.
+        Song foundSong = findSong(title);      //FindSong method is used to determine if you don't add a duplicate to your album.
         if(foundSong == null) {
             this.songs.add(new Song(title,duration));   //If the song is not in the album it created a Song object.
             System.out.println("Song: " + title + " added to the album: " + albumName);
