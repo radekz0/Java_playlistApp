@@ -1,5 +1,6 @@
 package playlist;
 
+
 public class Song {
     private String title;
     private double duration;

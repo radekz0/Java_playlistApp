@@ -6,6 +6,7 @@ import java.util.LinkedList;
 
 public class Main {
     private static ArrayList<Album> albums = new ArrayList<>();
+    private static PlayPlaylist play;
 
     public static void main(String[] args) {
         Album album = new Album("Back in Black","AC/DC");
@@ -28,5 +29,7 @@ public class Main {
         albums.get(1).addToPlaylist("I Got the Six", playlist);
         albums.get(1).addToPlaylist("Dirty Dog", playlist);
 
+        play = new PlayPlaylist(playlist);
     }
+
 }
